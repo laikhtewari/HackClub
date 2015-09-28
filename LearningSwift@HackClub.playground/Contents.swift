@@ -107,7 +107,7 @@ func square(x: Int) -> Int
 
 square(5)
 
-//: What's going on here? The function, called square, is taking in one Int parameter, multiplying that by itself, and returning an Int. In Swift, you can pass almost anything in the parameters of a function, including functions. You can also return almost anything, once again including functions. You can also have no parameters and return nothing. Here is an example of a function that takes in multiple parameters and doesn't return anything:
+//: What's going on here? The function, called square, is taking in one Int parameter, multiplying that by itself, and returning an Int. In Swift, you can pass almost anything in the parameters of a function, including functions (this is called a callback and we'll talk about this a little later). You can also return almost anything, once again including functions. You can also have no parameters and return nothing. Here is an example of a function that takes in multiple parameters and doesn't return anything:
 
 func printPower(base: Int, exponent: Int)
 {
@@ -132,5 +132,13 @@ func printStatement()
 
 printStatement()
 
+//: Another cool feature Swift has with functions is that you can return multiple values. This group of multiple values is called a tuple. Below is an example of a function that returns a tuple.
 
+func myTupleFunc(name1: String, name2: String) -> (String, String)
+{
+    return (name1, name2)
+}
+
+println(myTupleFunc("Laikh", "Tommy").0)
+println(myTupleFunc("Laikh", "Tommy").1)
 
