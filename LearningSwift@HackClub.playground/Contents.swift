@@ -216,6 +216,8 @@ class Person
     }
 }
 
+//: In our Person class, we have a name property and a job property and then an initializer. The initializer takes two parameters, and then assigns them to name and job respectively. Lets create some Person objects. We have a Laikh and a Mr. Steinberg. We can then access their job properties using a '.' and the name of the property ('job')
+
 var laikh = Person(name: "Laikh", job: "Student")
 
 var mrSteinberg = Person(name: "Mr. Steinberg", job: "Teacher")
@@ -223,6 +225,8 @@ var mrSteinberg = Person(name: "Mr. Steinberg", job: "Teacher")
 laikh.job
 
 mrSteinberg.job
+
+//: But lets say we want to create a whole class worth of students or the entire Menlo faculty. It would get tedious to type job = student over and over again, so we can use subclassing. Lets create a Student class as a subclass of Person. By subclassing, we can inherit all the properties of the superclass and then adjust as needed or even add extra properties specific only to the subclass. Notice that we must initialize the subclass specific properties first and then call 'super.init'
 
 class Student: Person {
     var grade: Int
