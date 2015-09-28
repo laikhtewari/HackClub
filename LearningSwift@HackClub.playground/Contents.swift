@@ -37,7 +37,7 @@ if myOptionalString != nil {
     println("Give me a value!")
 }
 
-//: But, since we're lazy, Swift gives us a faster way to check
+//: But, since we're lazy, Swift gives us a faster way to check. This is called 'optional binding' 
 
 if let testString = myOptionalString {
     println(testString)
@@ -82,3 +82,9 @@ else
 {
     println("awww...")
 }
+
+//: Let's look at some data structures. Arrays can either be immutable or mutable depending on if you define them as vars or lets. A let array is equivalent to a Java array while a var array is similar to a Java ArrayList
+
+let myImmutableArray: [int] = {1,2,3,4,5,6,7,8,9,0}
+
+
