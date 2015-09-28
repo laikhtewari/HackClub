@@ -199,3 +199,56 @@ func myTupleFunc(name1: String, name2: String) -> (String, String)
 var myTuple = myTupleFunc("Laikh", "Tommy")
 println(myTuple.0)
 println(myTuple.1)
+
+//: ####Classes
+
+//: Now we're getting to the fun stuff. Classes generally group code that you will use multiple times
+
+class Person
+{
+    var name: String
+    var job: String
+    
+    init (name: String, job: String)
+    {
+        self.name = name
+        self.job = job
+    }
+}
+
+var laikh = Person(name: "Laikh", job: "Student")
+
+var mrSteinberg = Person(name: "Mr. Steinberg", job: "Teacher")
+
+laikh.job
+
+mrSteinberg.job
+
+class Student: Person {
+    var grade: Int
+    
+    init(grade: Int, name: String)
+    {
+        self.grade = grade
+        
+        super.init(name: name, job: "Student")
+    }
+}
+
+class Teacher: Person {
+    var classroom: String
+    
+    init(classroom: String, name: String)
+    {
+        self.classroom = classroom
+        super.init(name: name, job: "Teacher")
+    }
+}
+
+var tommy = Student(grade: 10, name: "Tommy")
+
+var mrThibodeaux = Teacher(classroom: "A///", name: "Mr. Thibodeaux")
+
+tommy.grade
+
+mrThibodeaux.classroom
