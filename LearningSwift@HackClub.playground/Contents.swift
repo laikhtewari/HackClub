@@ -7,13 +7,19 @@
 
 var myString = "Hello, world"
 
+let pi = 3.14
+
 //: Don't worry about setting a type, Swift does that for you with 'inferred typing'. But, if you want to be super clear, you can 'explicitly type' a variable as shown below.
 
 var myInteger: Int = 10
 
-//: One we define a variable, we can change it to whatever value we want, so long as it is the same type as the original value ie you can't change a string variable to an integer
+//: Once we define a variable, we can change it to whatever value we want, so long as it is the same type as the original value ie you can't change a string variable to an integer
 
 myInteger = 5
+
+//: However, if we used let to declare the variable, we can't change its value. Try uncommenting the next line and see what happens.
+
+//pi = 3.1415
 
 //: We also cannot change a normal variable to nothing. Try uncommenting the next line to see what happens when we change myString to nil
 
@@ -32,17 +38,17 @@ myOptionalString = "Holla back"
 //: We could do it like this
 
 if myOptionalString != nil {
-    println("Yay! No errors!")
+    print("Yay! No errors!")
 } else {
-    println("Give me a value!")
+    print("Give me a value!")
 }
 
 //: But, since we're lazy, Swift gives us a faster way to check. This is called 'optional binding'
 
 if let testString = myOptionalString {
-    println(testString)
+    print(testString)
 } else {
-    println(":(")
+    print(":(")
 }
 
 //: What happens here is we try to assign the value of myOptionalString to testString. If it works, we know myOptionalString is not nil. We can either use testString or myOptionalString, depending on what we want to do. However, if myOptionalString is nil, the if statement won't run.
@@ -50,9 +56,9 @@ if let testString = myOptionalString {
 myOptionalString = nil
 
 if let testString = myOptionalString {
-    println(testString)
+    print(testString)
 } else {
-    println(":(")
+    print(":(")
 }
 
 //: There is another type of optional called an implicitly unwrapped optional, which means that we make a promise to the compiler that if we use that variable later on, it will have a value (and not be nil). This way we don't have to go through the hassle of unwrapping it when we try to use it.
@@ -61,7 +67,7 @@ var myOtherOptionalString: String!
 
 myOtherOptionalString = "Sup, dawg"
 
-println(myOtherOptionalString)
+print(myOtherOptionalString)
 
 //: But be careful, if your variable has a value of nil and you try to use it, the compiler won't yell at you, but when it comes to runtime, your app will crash because it won't know how to deal with what you're asking it to do.
 
@@ -72,15 +78,15 @@ var myBool = true
 
 if myVar + 1 == 10 && myBool
 {
-    println("Yay! We got through")
+    print("Yay! We got through")
 }
 else if myVar == 12
 {
-    println("This is pretty good too")
+    print("This is pretty good too")
 }
 else
 {
-    println("awww...")
+    print("awww...")
 }
 
 //: Let's look at some data structures. Arrays can either be immutable or mutable depending on if you define them as vars or lets. A let array is equivalent to a Java array while a var array is similar to a Java ArrayList
@@ -88,5 +94,43 @@ else
 let myImmutableArray: [Int] = [1, 0, 5]  //creates immutable array with length 3 and values 1, 0, 5
 
 var myMutableArray = [String]() //creates empty string array of length 0
+
+
+//:# Functions
+
+//: Functions in Swift are like methods in Java. They're basically chunks of code made to perform a specific task that you can call again by using the name that you gave it. An example of a function is:
+
+func square(x: Int) -> Int
+{
+    return x * x
+}
+
+square(5)
+
+//: What's going on here? The function, called square, is taking in one Int parameter, multiplying that by itself, and returning an Int. In Swift, you can pass almost anything in the parameters of a function, including functions. You can also return almost anything, once again including functions. You can also have no parameters and return nothing. Here is an example of a function that takes in multiple parameters and doesn't return anything:
+
+func printPower(base: Int, _ exponent: Int)
+{
+    var power = 1
+    for(var i = 0; i < exponent; i++)
+    {
+        power *= base
+    }
+    print(power)
+}
+
+printPower(2, 5)
+
+//: You can see here that without specifying a return type, Swift automatically assumes that the function is void.
+
+//: Here, we can see a function without parameters:
+
+func printStatement()
+{
+    print("Laikh and Tommy are awesome.")
+}
+
+printStatement()
+
 
 
