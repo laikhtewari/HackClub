@@ -61,3 +61,7 @@ var myOtherOptionalString: String!
 
 myOtherOptionalString = "Sup, dawg"
 
+println(myOtherOptionalString)
+
+//: But be careful, if your variable has a value of nil and you try to use it, the compiler won't yell at you, but when it comes to runtime, your app will crash because it won't know how to deal with what you're asking it to do.
+
