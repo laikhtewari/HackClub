@@ -1,7 +1,7 @@
-//: Playground - noun: a place where people can play
-
 /*:
-# Welcome to Hack club. The first rule of Hack club is: don't talk about Hack Club*/
+# Welcome to Hack club. The first rule of Hack club is: don't talk about Hack Club
+
+### Just kidding. Here is a playground with Swift basics*/
 
 //: Let's do some review. We can define a variable as shown below
 
