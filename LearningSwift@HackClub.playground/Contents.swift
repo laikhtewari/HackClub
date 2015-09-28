@@ -31,7 +31,7 @@ var myOptionalString: String? = "Laikh and Tommy are pretty cool"
 
 myOptionalString = nil
 
-myOptionalString = "Holla back"
+myOptionalString = "Yay I get a value!"
 
 //: The reason why we have to go through the extra step in allowing a variable to have a value of nil is because it can be dangerous to allow all variables be nil. If we try and access a variable that is nil and it shouldn't be, our app would crash. So in order to use an optional variable, we first have to check if it has a value
 
@@ -65,7 +65,7 @@ if let testString = myOptionalString {
 
 var myOtherOptionalString: String!
 
-myOtherOptionalString = "Sup, dawg"
+myOtherOptionalString = "I don't like being nil"
 
 print(myOtherOptionalString)
 
@@ -139,6 +139,6 @@ func myTupleFunc(name1: String, name2: String) -> (String, String)
     return (name1, name2)
 }
 
-println(myTupleFunc("Laikh", "Tommy").0)
-println(myTupleFunc("Laikh", "Tommy").1)
-
+var myTuple = myTupleFunc("Laikh", "Tommy")
+println(myTuple.0)
+println(myTuple.1)
