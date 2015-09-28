@@ -109,7 +109,7 @@ square(5)
 
 //: What's going on here? The function, called square, is taking in one Int parameter, multiplying that by itself, and returning an Int. In Swift, you can pass almost anything in the parameters of a function, including functions. You can also return almost anything, once again including functions. You can also have no parameters and return nothing. Here is an example of a function that takes in multiple parameters and doesn't return anything:
 
-func printPower(base: Int, _ exponent: Int)
+func printPower(base: Int, exponent: Int)
 {
     var power = 1
     for(var i = 0; i < exponent; i++)
