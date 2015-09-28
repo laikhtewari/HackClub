@@ -45,7 +45,15 @@ if let testString = myOptionalString {
     println(":(")
 }
 
-//: What happens here is we try to assign the value of myOptionalString to testString. If it works, we know myOptionalString is not nil. We can either use testString or myOptionalString, depending on what we want to do. However, if the 
+//: What happens here is we try to assign the value of myOptionalString to testString. If it works, we know myOptionalString is not nil. We can either use testString or myOptionalString, depending on what we want to do. However, if myOptionalString is nil, the if statement won't run.
+
+myOptionalString = nil
+
+if let testString = myOptionalString {
+    println(testString)
+} else {
+    println(":(")
+}
 
 //: There is another type of optional called an implicitly unwrapped optional, which means that we make a promise to the compiler that if we use that variable later on, it will have a value (and not be nil). This way we don't have to go through the hassle of unwrapping it when we try to use it.
 
