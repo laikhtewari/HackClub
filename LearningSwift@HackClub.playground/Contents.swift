@@ -133,7 +133,24 @@ for school in myArray
 
 let myImmutableArray: [Int] = [1, 0, 5]  //creates immutable array with length 3 and values 1, 0, 5
 
-var myMutableArray = [String]() //creates empty string array of length 0
+var myMutableArray = [Int]() //creates empty int array of length 0
+
+for i in 1...5
+{
+    myMutableArray.append(i)
+}
+
+//: One other type of data structure you may use is called a Dictionary. It's like an array of key-value pairs. Basically, each element in a dictionary has two parts: a key and a value. You may use a key to parse through the dictionary and find your value. Since there is a possibility that the key-value pair you are searching for doesn't exist, you must first check to see if it does
+
+var cityStates = ["San Francisco":"California", "New York City": "New York", "Austin":"Texas"]
+if let state = cityStates["Austin"]
+{
+    println("Austin is in " + state)
+}
+else
+{
+    println("I'm bad at geography, so I don't know where that is")
+}
 
 
 //:#### Functions
