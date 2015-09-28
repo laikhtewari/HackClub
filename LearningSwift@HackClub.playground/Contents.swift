@@ -1,9 +1,13 @@
 /*:
 # Welcome to Hack club. The first rule of Hack club is: don't talk about Hack Club
 
-### Just kidding. Here is a playground with Swift basics*/
+## Just kidding. Here is a playground with Swift basics*/
 
-//: Let's do some review. We can define a variable as shown below
+//: ## Let's do some review:
+
+//: #### Variables
+
+//:We can define a variable as shown below
 
 var myString = "Hello, world"
 
@@ -24,6 +28,8 @@ myInteger = 5
 //: We also cannot change a normal variable to nothing. Try uncommenting the next line to see what happens when we change myString to nil
 
 //myString = nil
+
+//: #### Optionals 
 
 //: We can get around this by making it an optional variable (remember to recomment the previous line otherwise we wont see the output on the right anymore)
 
@@ -71,6 +77,8 @@ print(myOtherOptionalString)
 
 //: But be careful, if your variable has a value of nil and you try to use it, the compiler won't yell at you, but when it comes to runtime, your app will crash because it won't know how to deal with what you're asking it to do.
 
+//: #### Conditional Statements
+
 //: You may have noticed we haven't gone over conditional statements yet, but we already tried to show you them. If you were confused, we apologize (shame on us). Conditional statements in Swift are very similar to conditional statemets in other languages, such as Java. The special thing about Swift conditionals is that they don't need parentheses around the actual condition. Below are some examples
 
 var myVar = 10
@@ -89,6 +97,38 @@ else
     print("awww...")
 }
 
+//: #### Loops
+
+//: Let's look at some loops. Swift has a similar structure for 'for' loops and 'while' loops compared to Java, and also has a 'for...in' loop similar to in Python
+
+for var i = 0; i < 10; i++
+{
+    println("Iteration #\(i)")
+}
+//If you click on the circle next to the line where it says 10 lines on the right, you will see a box pop up underneat the loop. You can then click on the list icon to see the printed lines
+
+//: We used what's called 'string interpolation to add the int i to the printed string. Thats when you use "My string goes here \(-some non string here-)"
+
+var myBoolean = true
+var myIndex = 0
+while myBoolean
+{
+    print("\(myIndex)")
+    myIndex++
+    if myIndex == 5
+    {
+        myBoolean = false
+    }
+}
+
+let myArray = ["Menlo", "Sacred Heart", "Castilleja", "Priory", "Nueva"]
+for school in myArray
+{
+    println("I go to " + school)
+}
+
+//: #### Data structures
+
 //: Let's look at some data structures. Arrays can either be immutable or mutable depending on if you define them as vars or lets. A let array is equivalent to a Java array while a var array is similar to a Java ArrayList
 
 let myImmutableArray: [Int] = [1, 0, 5]  //creates immutable array with length 3 and values 1, 0, 5
@@ -96,7 +136,7 @@ let myImmutableArray: [Int] = [1, 0, 5]  //creates immutable array with length 3
 var myMutableArray = [String]() //creates empty string array of length 0
 
 
-//:# Functions
+//:#### Functions
 
 //: Functions in Swift are like methods in Java. They're basically chunks of code made to perform a specific task that you can call again by using the name that you gave it. An example of a function is:
 
