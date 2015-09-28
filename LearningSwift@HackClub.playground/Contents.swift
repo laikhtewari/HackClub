@@ -65,3 +65,20 @@ println(myOtherOptionalString)
 
 //: But be careful, if your variable has a value of nil and you try to use it, the compiler won't yell at you, but when it comes to runtime, your app will crash because it won't know how to deal with what you're asking it to do.
 
+//: You may have noticed we haven't gone over conditional statements yet, but we already tried to show you them. If you were confused, we apologize (shame on us). Conditional statements in Swift are very similar to conditional statemets in other languages, such as Java. The special thing about Swift conditionals is that they don't need parentheses around the actual condition. Below are some examples
+
+var myVar = 10
+var myBool = true
+
+if myVar + 1 == 10 && myBool
+{
+    println("Yay! We got through")
+}
+else if myVar == 12
+{
+    println("This is pretty good too")
+}
+else
+{
+    println("awww...")
+}
