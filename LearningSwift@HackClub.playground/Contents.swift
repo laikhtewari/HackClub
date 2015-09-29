@@ -103,7 +103,7 @@ else
 
 for var i = 0; i < 10; i++
 {
-    println("Iteration #\(i)")
+    print("Iteration #\(i)")
 }
 //If you click on the circle next to the line where it says 10 lines on the right, you will see a box pop up underneat the loop. You can then click on the list icon to see the printed lines
 
@@ -124,7 +124,7 @@ while myBoolean
 let myArray = ["Menlo", "Sacred Heart", "Castilleja", "Priory", "Nueva"]
 for school in myArray
 {
-    println("I go to " + school)
+    print("I go to " + school)
 }
 
 //: #### Data structures
@@ -145,11 +145,11 @@ for i in 1...5
 var cityStates = ["San Francisco":"California", "New York City": "New York", "Austin":"Texas"]
 if let state = cityStates["Austin"]
 {
-    println("Austin is in " + state)
+    print("Austin is in " + state)
 }
 else
 {
-    println("I'm bad at geography, so I don't know where that is")
+    print("I'm bad at geography, so I don't know where that is")
 }
 
 
@@ -176,7 +176,7 @@ func printPower(base: Int, exponent: Int)
     print(power)
 }
 
-printPower(2, 5)
+printPower(2, exponent: 5)
 
 //: You can see here that without specifying a return type, Swift automatically assumes that the function is void.
 
@@ -196,9 +196,9 @@ func myTupleFunc(name1: String, name2: String) -> (String, String)
     return (name1, name2)
 }
 
-var myTuple = myTupleFunc("Laikh", "Tommy")
-println(myTuple.0)
-println(myTuple.1)
+var myTuple = myTupleFunc("Laikh", name2: "Tommy")
+print(myTuple.0)
+print(myTuple.1)
 
 //: ####Classes
 
