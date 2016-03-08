@@ -33,7 +33,7 @@ myInteger = 5
 
 //: We can get around this by making it an optional variable (remember to recomment the previous line otherwise we wont see the output on the right anymore)
 
-var myOptionalString: String? = "Laikh and Tommy are pretty cool"
+var myOptionalString: String? = "Laikh and Tommy are pretty NOT cool"
 
 myOptionalString = nil
 
@@ -124,7 +124,7 @@ while myBoolean
 let myArray = ["Menlo", "Sacred Heart", "Castilleja", "Priory", "Nueva"]
 for school in myArray
 {
-    println("I go to " + school)
+    print("I go to " + school)
 }
 
 //: #### Data structures
