@@ -1,4 +1,5 @@
-# Welcome to Hack Club. The first rule of Hack Club is: you do not talk about Hack Club.
+# Menlo Hack Club
+## Lead by [Laikh Tewari](https://www.github.com/laikhtewari) and [Tommy Yang](https://github.com/tommyy96)
 
 
 Upcoming hackathons:
