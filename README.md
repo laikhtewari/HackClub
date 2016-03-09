@@ -1,5 +1,5 @@
 # Menlo Hack Club
-## Lead by [Laikh Tewari](https://www.github.com/laikhtewari) and [Tommy Yang](https://github.com/tommyy96)
+## Led by [Laikh Tewari](https://www.github.com/laikhtewari) and [Tommy Yang](https://github.com/tommyy96)
 
 
 Upcoming hackathons:
