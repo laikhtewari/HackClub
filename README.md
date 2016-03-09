@@ -3,12 +3,12 @@
 
 Upcoming hackathons:
 
-[MenloHacks](http://www.menlohacks.com)
+*[MenloHacks](http://www.menlohacks.com)
 
-[GunnHacks](http://www.gunnhacks.com)
+*[GunnHacks](http://www.gunnhacks.com)
 
 Tutorials:
 
-[Slack](https://github.com/hackclub/hackclub/blob/master/SLACK.md)
+*[Slack](https://github.com/hackclub/hackclub/blob/master/SLACK.md)
 
-[Swiper](https://github.com/hackclub/hackclub/tree/master/workshops/swiper)
+*[Swiper](https://github.com/hackclub/hackclub/tree/master/workshops/swiper)
