@@ -2,8 +2,8 @@
 
 
 Upcoming hackathons:
-[MenloHacks](www.menlohacks.com)
-[GunnHacks](www.gunnhacks.com)
+[MenloHacks](http://www.menlohacks.com)
+[GunnHacks](http://www.gunnhacks.com)
 
 Tutorials:
 [Slack](https://github.com/hackclub/hackclub/blob/master/SLACK.md)
