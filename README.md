@@ -5,11 +5,11 @@
 ###Upcoming hackathons:
 
 * [MenloHacks](http://www.menlohacks.com)
+* [BaseHacks](http://www.basehacks.org)
 
 ###Tutorials:
 
 * [Slack](https://github.com/hackclub/hackclub/blob/master/SLACK.md)
-
 * [Swiper](https://github.com/hackclub/hackclub/tree/master/workshops/swiper)
 
 ###Announcements:
