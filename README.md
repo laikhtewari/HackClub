@@ -11,10 +11,9 @@
 
 * [Slack](https://github.com/hackclub/hackclub/blob/master/SLACK.md)
 * [Swiper](https://github.com/hackclub/hackclub/tree/master/workshops/swiper)
+*[Lots of iOS tutorials:](http://www.raywenderlich.com/category/swift)
 
 ###Announcements:
-[Lots of iOS tutorials:](http://www.raywenderlich.com/category/swift)
-
 
 We will be having a competitions for various prizes in the next few meetings. Work in teams to find the answer to the given problem. Then try to generalize your solution with code.
 The competitions will be listed below:
