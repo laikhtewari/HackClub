@@ -6,6 +6,7 @@
 
 * [MenloHacks](http://www.menlohacks.com)
 * [BaseHacks](http://www.basehacks.org)
+* [ProCo @ Stanford](http://proco.stanford.edu)
 
 ###Tutorials:
 
@@ -20,4 +21,3 @@ The competitions will be listed below:
 * [Project Euler](https://projecteuler.net/problem=1)
 
 
-* [ProCo @ Stanford](http://proco.stanford.edu)
