@@ -18,3 +18,6 @@
 We will be having a competitions for various prizes in the next few meetings. Work in teams to find the answer to the given problem. Then try to generalize your solution with code.
 The competitions will be listed below:
 * [Project Euler](https://projecteuler.net/problem=1)
+
+
+* [ProCo @ Stanford](http://proco.stanford.edu)
