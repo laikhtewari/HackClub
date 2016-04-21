@@ -21,13 +21,13 @@
   * [Dodge game](https://github.com/hackclub/hackclub/blob/master/workshops/dodge/README.md)
   * [Maze game](https://github.com/hackclub/hackclub/blob/master/workshops/maze/README.md)
   * [Ajar.io (copy of Agar.io)](https://github.com/hackclub/hackclub/blob/master/workshops/ajar/README.md)
-
-* BONUS TUTORIALS:
-  * [Cloud9 editor](https://github.com/hackclub/hackclub/blob/master/workshops/cloud9/README.md)
-  * [Cringe 101 (The Cringiest Website Ever)](https://github.com/hackclub/hackclub/blob/master/workshops/cringe_101/README.md)
-  * [Thugify (Using JQuery)](https://github.com/hackclub/hackclub/blob/master/workshops/thugify/README.md)
-  * [Bigfoot game](https://github.com/hackclub/hackclub/blob/master/workshops/find_bigfoot/README.md)
-  * [Twine: Text adventure game](https://github.com/hackclub/hackclub/blob/master/workshops/find_bigfoot/README.md)  
+  
+  * BONUS TUTORIALS:
+    * [Cloud9 editor](https://github.com/hackclub/hackclub/blob/master/workshops/cloud9/README.md) 
+    * [Cringe 101 (The Cringiest Website Ever)](https://github.com/hackclub/hackclub/blob/master/workshops/cringe_101/README.md)
+    * [Thugify (Using JQuery)](https://github.com/hackclub/hackclub/blob/master/workshops/thugify/README.md)
+    * [Bigfoot game](https://github.com/hackclub/hackclub/blob/master/workshops/find_bigfoot/README.md)
+    * [Twine: Text adventure game](https://github.com/hackclub/hackclub/blob/master/workshops/find_bigfoot/README.md)  
 
 ###Announcements:
 
