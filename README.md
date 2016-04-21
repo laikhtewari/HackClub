@@ -4,7 +4,6 @@
 
 ###Upcoming hackathons:
 
-* [MenloHacks](http://www.menlohacks.com)
 * [BaseHacks](http://www.basehacks.org)
 * [ProCo @ Stanford](http://proco.stanford.edu)
 
