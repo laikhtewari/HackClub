@@ -12,7 +12,7 @@
 
 * [Slack](https://github.com/hackclub/hackclub/blob/master/SLACK.md)
 * [Swiper](https://github.com/hackclub/hackclub/tree/master/workshops/swiper)
-* [Lots of iOS tutorials:](http://www.raywenderlich.com/category/swift)
+* [Lots of iOS tutorials](http://www.raywenderlich.com/category/swift)
 
 * WebDev Track
   * [Personal Website](https://github.com/hackclub/hackclub/blob/master/workshops/personal_website/README.md)
