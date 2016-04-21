@@ -16,11 +16,15 @@
 
 * WebDev Track
   * [1](https://github.com/hackclub/hackclub/blob/master/workshops/personal_website/README.md)
-  * [2]
-  * [3]
-  * [4]
-  * [5]
+  * [2](https://github.com/hackclub/hackclub/blob/master/workshops/twilio/README.md)
+  * [3](https://github.com/hackclub/hackclub/blob/master/workshops/soccer/README.md)
+  * [4](https://github.com/hackclub/hackclub/blob/master/workshops/dodge/README.md)
+  * [5](https://github.com/hackclub/hackclub/blob/master/workshops/maze/README.md)
+  * [6](https://github.com/hackclub/hackclub/blob/master/workshops/ajar/README.md)
 
+  * BONUS TUTORIALS:
+  	 * [Cloud9 editor](https://github.com/hackclub/hackclub/blob/master/workshops/cloud9/README.md)
+	 * [Cringe 101 (The Cringiest Website Ever)](https://github.com/hackclub/hackclub/blob/master/workshops/cringe_101/README.md)
 ###Announcements:
 
 We will be having a competitions for various prizes in the next few meetings. Work in teams to find the answer to the given problem. Then try to generalize your solution with code.
