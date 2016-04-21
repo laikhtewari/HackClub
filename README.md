@@ -15,8 +15,8 @@
 * [Lots of iOS tutorials:](http://www.raywenderlich.com/category/swift)
 
 * WebDev Track
-  * [1](https://github.com/hackclub/hackclub/blob/master/workshops/personal_website/README.md)
-  * [2](https://github.com/hackclub/hackclub/blob/master/workshops/twilio/README.md)
+  * [Personal Website](https://github.com/hackclub/hackclub/blob/master/workshops/personal_website/README.md)
+  * [Twilio (sending automatic texts from a website)](https://github.com/hackclub/hackclub/blob/master/workshops/twilio/README.md)
   * [3](https://github.com/hackclub/hackclub/blob/master/workshops/soccer/README.md)
   * [4](https://github.com/hackclub/hackclub/blob/master/workshops/dodge/README.md)
   * [5](https://github.com/hackclub/hackclub/blob/master/workshops/maze/README.md)
