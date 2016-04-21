@@ -17,10 +17,10 @@
 * WebDev Track
   * [Personal Website](https://github.com/hackclub/hackclub/blob/master/workshops/personal_website/README.md)
   * [Twilio (sending automatic texts from a website)](https://github.com/hackclub/hackclub/blob/master/workshops/twilio/README.md)
-  * [3](https://github.com/hackclub/hackclub/blob/master/workshops/soccer/README.md)
-  * [4](https://github.com/hackclub/hackclub/blob/master/workshops/dodge/README.md)
-  * [5](https://github.com/hackclub/hackclub/blob/master/workshops/maze/README.md)
-  * [6](https://github.com/hackclub/hackclub/blob/master/workshops/ajar/README.md)
+  * [(Head) Soccer](https://github.com/hackclub/hackclub/blob/master/workshops/soccer/README.md)
+  * [Dodge game](https://github.com/hackclub/hackclub/blob/master/workshops/dodge/README.md)
+  * [Maze game](https://github.com/hackclub/hackclub/blob/master/workshops/maze/README.md)
+  * [Ajar.io (copy of Agar.io)](https://github.com/hackclub/hackclub/blob/master/workshops/ajar/README.md)
 
 * BONUS TUTORIALS:
   * [Cloud9 editor](https://github.com/hackclub/hackclub/blob/master/workshops/cloud9/README.md)
