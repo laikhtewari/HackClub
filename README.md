@@ -2,10 +2,11 @@
 ## Led by [Laikh Tewari](https://www.github.com/laikhtewari) and [Tommy Yang](https://github.com/tommyy96)
 
 
-###Upcoming hackathons:
+###Upcoming events:
 
 * [BaseHacks](http://www.basehacks.org)
 * [ProCo @ Stanford](http://proco.stanford.edu)
+* [HackCamp](https://camp.hackclub.com)
 
 ###Tutorials:
 
