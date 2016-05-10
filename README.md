@@ -5,8 +5,12 @@
 ###Upcoming events:
 
 * [BaseHacks](http://www.basehacks.org)
-* [ProCo @ Stanford](http://proco.stanford.edu)
 * [HackCamp](https://camp.hackclub.com)
+* [PennApps](http://2016f.pennapps.com) <-- you have got to apply to this, you can apply in teams from Menlo to increase chances of getting in
+* [ProdHacks](http://productvisionclub.com/prodhacks/)
+* [Hack the North](https://hackthenorth.com)
+
+* [Tons more](https://github.com/japacible/Hackathon-Calendar)
 
 ###Tutorials:
 
